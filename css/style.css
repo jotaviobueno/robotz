@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+#city{
+    width: 100vw;
+    right: 100vh;
+    background-image: no-repeat;
+}
+.center{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.img-cont img{    /*backgroud image*/
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: rgba(250, 250, 250, 0.336); /*color*/
+}
+/*LOGO*/
+.logo{
+    width: 70%;  
+}
+.logo img{
+    border-radius: 50%;
+}
+.logo h1{
+    font-family: Verdana, Tahoma, sans-serif;  
+    position:absolute;
+    top:3.6%;
+    left: 7%;
+}
+/*MENU LEFT*/
+.menu{
+    padding-top: 1.5%;
+    width: -20%;
+    text-align: right;
+    font-size: 100%;
+    
+}
+.menu a{
+    color: rgb(0, 0, 0);    /*color*/
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;  /*darius*/
+    align-items: center;  
+}
+.menu button:hover{
+    background-color: rgba(49, 42, 42, 0.336);  /*color*/
+}
+/*-------------------wallet-d-----------------------------------*/
+.crHmcD{
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0px;
+    display: flex;
+    cursor: pointer;
+    color: rgb(28, 17, 33); /*color*/
+}
+.hlNaKu{
+    font-family: Verdana, Tahoma, sans-serif;  
+    margin: 0px;
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(0, 0, 0); /*color*/
+    border-radius: 31%;
+    -webkit-box-align: right;
+    align-items: center;
+    text-align: center;
+}
+.gjfORV{
+    width: 35%;
+
+}
+.ijFWYd{
+    position:absolute;
+    top: 3.5%; /*top button wallet*/
+    width: 9.9%; /*move wallet button /right left*/
+    height: 5%;
+    border:none;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: color 0.2s ease 0s;
+    background-color: rgb(69, 177, 219);    /*color*/
+    font-size: 12px;
+    box-shadow:none;
+}
+.menu img{
+    position:absolute;
+    left: 5%;
+}
+/*img*/
+section.about{
+    height: calc(100% - 200px);
+    position: relative;
+}
+.excess{
+    position:absolute;
+    bottom: -50%;
+    right: -30%;
+    width: 62%;
+    height: 120%;
+    background-color: rgba(51, 51, 51, 0);  /*color*/
+}
+.menu a:hover {
+    color: rgb(41, 74, 87); /*color */
+}
+.centere{
+    position:absolute;
+    top: 25%;
+    right: 55%;
+    font-size: 20px;
+    padding: 0 2%;
+    background-color: rgba(53, 52, 52, 0.322);  /*color*/
+    border-radius:5px;
+}
+header{
+    height:100px;
+    padding: 20px 0;
+    background-color: rgba(53, 52, 52, 0.527);  /*color*/
+    text-align: left;
+}
+/*MIDIA SOCIAL*/
+.socialmidia{
+    position:absolute;
+    right: 50%;
+    width: 6%;
+    top: 15%; /*move*/
+    background-color: rgba(241, 247, 250, 0.466); /*color*/
+    border-radius: 5%;
+}
+.socialmidia img{
+    display: block;
+    width: 35px;
+    margin: 20px;
+}
+    /* text-align: left;
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 auto;*/
+#logophoto{
+    width: 100vw;
+    right: 100vh;
+}
+/*button telegram*/
+.announcement button{
+    width: 50%;
+    position:absolute;
+    height: 16%;
+    left: 12%;
+    top: 80%;
+    background-color: rgb(69, 177, 219); /*color*/
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Verdana, Tahoma, sans-serif;
+    border-radius: 4px;
+    font-size: 12px;
+    transition: color 0.2s ease 0s;
+    border:none;
+}
+.announcement img{
+    position:absolute;
+    top: 80.5%;
+    left: 5%;
+}
+.announcement button:hover{
+    background-color: rgba(49, 42, 42, 0.336);  /*color*/
+}
